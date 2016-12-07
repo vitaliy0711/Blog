@@ -1,0 +1,151 @@
+@charset "utf-8";
+* {
+margin: 0;
+padding: 0;
+outline: none;
+}
+html {height: 100% }
+body{
+	width: 100%;
+	height: 100%;
+	background-color:#fff;
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height:135%;
+
+}
+a{
+	color: #970709;
+	text-decoration: none;
+}
+a:hover {
+	color: #CDB2B2;
+}
+a.clear {
+clear: both;
+
+}
+img{
+	max-width:100%;
+	max-height: auto;
+	width: auto\9;
+}
+header {
+width: 98%;
+float: left;
+padding: 1%;
+background-color: #fafafa;
+border-bottom: 2px solid silver;
+margin-bottom:20px;
+}
+header #logo {
+	width: 40%;
+	float: left;
+	color: #939393;
+	font-size:2em;
+	font-family: Times New Roman, sans-serif;
+}
+header #menuHead {
+	width: 25%;
+	float: left;
+
+}
+header #menuHead div {
+float:left;
+padding: 5px;
+background-color: #B8B3B4;
+border-radius: 10px;
+color:#FFFBFB;
+}
+header #menuHead div:hover {
+background-color:#E7DFDF;
+}
+
+/*Стилі для всього докумета*/
+#wrapper{
+	width:80%;
+	margin-left: 10%;
+	float: left;
+}
+
+/* стилі для лівої колонки*/
+#wrapper #leftCol {
+	width: 60%;
+	margin-right: 10%;
+	float:left;
+}
+#wrapper #leftCol #Article {
+	width: 78%;
+	word-wrap: break-word;
+
+	word-wrap: brake-word;
+	margin-left: 10%;
+	background-color: #F6F6F6;
+	padding: 1%;
+	float:left;
+	border-bottom: solid #050505 1px;
+	margin-bottom: 3%;
+}
+
+#wrapper #leftCol .article {
+	width: 40%;
+	margin-left: 5%;
+	background-color: #F6F6F6;
+	padding: 1%;
+	float:left;
+	margin-top: 20px;
+
+}
+/* стилі для правої колонки*/
+
+#wrapper #rightCol
+{
+	width:30%;
+	float:left;
+}
+#wrapper #rightCol .banner{
+	width:100%;
+	float:left;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	margin-top: 40px;
+
+}
+
+
+#wrapper #leftCol #about_me {
+	width:76%;
+	margin-left:10%;
+	border: 1px solid silver;
+	background-color: #f4f4f4;
+	padding: 2%;
+}
+footer {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-top: 2px solid silver;
+	margin-top: 40px;
+
+}
+/* стилі для лівої футера*/
+footer #socials
+{
+	float: left;
+	width: 50%;
+}
+footer #rights
+{
+	float: right;
+	width: 50%;
+
+}
+footer #socials img {
+width: 30 px;
+height: 30px;
+float:left;
+margin-right:10px;
+
+}
