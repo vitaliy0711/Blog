@@ -93,6 +93,34 @@ header #CreatePost {
 	margin-bottom: 3%;
 }
 
+#wrapper #leftCol #Article img, #wrapper #leftCol .article img {
+	width: 100%;
+	float:left;
+	margin-bottom: 10px;
+
+}
+#wrapper #leftCol #Article h2, #wrapper #leftCol .article h2 {
+	font-weight: normal;
+	font-size: 1.4em;
+	font-family: Comic Sans MS;
+}
+#wrapper #leftCol #Article p {
+	width:90%;
+	margin-left: 5%;
+}
+#wrapper #leftCol #Article div.more, #wrapper #leftCol .article div.more {
+	width: 15%;
+	padding: 5px;
+	background-color: #B3A6A6;
+	color: #fff;
+	border-radius: 5px;
+	margin-top:10px;
+}
+#wrapper #leftCol #Article div.more: hover, #wrapper #leftCol .article div.more: hover {
+
+	background-color: #EBDFDF;
+
+}
 #wrapper #leftCol .article {
 	width: 40%;
 	margin-left: 5%;
@@ -117,7 +145,6 @@ header #CreatePost {
 	margin-top: 40px;
 
 }
-
 
 #wrapper #leftCol #about_me {
 	width:76%;
@@ -155,6 +182,7 @@ margin-right:10px;
 
 }
 
+
 /* стилі для додавання постів*/
 input[type = text] {
 	height: 15px;
@@ -180,9 +208,14 @@ input[type = text] {
 		padding: 8px;
 		border: 1px solid silver;
 	}
- textarea {
+ 	textarea {
 	width: 400px;
 	height: 120px;
 	border: 3px solid green;
-
 	}
+	/* стилі для лівої пагінації*/
+.pagination{
+	width:80%;
+	margin-left: 10%;
+	float: left;
+}
